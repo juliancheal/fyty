@@ -8,5 +8,5 @@ weekly_recycling = page.search(".//span[@class='WasteHighlight']")[1].text
 fortnightly_garden =  page.search(".//span[@class='WasteHighlight']")[2].text
 
 puts "Fortnightly Refuse: #{fortnightly_refuse}"
-puts "Weekly Rcycling: #{weekly_recycling}"
+puts "Weekly Recycling: #{weekly_recycling}"
 puts "Fortnightly Garden: #{fortnightly_garden}"
